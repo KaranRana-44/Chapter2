@@ -39,7 +39,7 @@ public class Fraction {
         return result;
     }
 
-    // TODO  subtract()
+
     public Fraction subtract(Fraction other)	// constructor
     {
         int n = this.numerator*other.getDenom() - this.denominator*other.getNum();
@@ -49,7 +49,7 @@ public class Fraction {
         return result;
     }
 
-    // TODO multiply()
+
     public Fraction multiply(Fraction other)	// constructor
     {
         int n = this.numerator*other.numerator;
@@ -59,14 +59,14 @@ public class Fraction {
         return result;
     }
 
-    // TODO toString()
+
     public String toString(){
         String s = numerator+ "/" + denominator;
         return s;
 
     }
 
-    // TODO reciprocal()
+
     public Fraction reciprocal()	// constructor
     {
         int d = this.getNum();
