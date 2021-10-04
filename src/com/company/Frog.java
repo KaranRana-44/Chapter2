@@ -82,6 +82,8 @@ public class Frog {
         Frog f3 = new Frog("Frank", 8,7);
         f3.jump(2);
         System.out.println(f3);
+        f3.jump(2);
+        System.out.println(f3);
         f3.visit(f1);
         System.out.println(f3);
         // make a new frog named Frank.  have him jump twice and then go visit Freddy.
